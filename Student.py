@@ -2,9 +2,22 @@ from flask import Flask,render_template,request
 from pymysql import connections
 import os
 import boto3
-from configuration import *
+from config import *
 
 app = Flask(__name__)
+
+def custombucket():
+	return custombucket
+def customregion():
+    return customregion
+def customhost():
+    return customhost
+def customuser():
+    return customuser
+def custompass():
+    return custompass
+def customdb():
+    return customdb
 
 # DBHOST = os.environ.get("DBHOST")
 # DBPORT = os.environ.get("DBPORT")
@@ -55,7 +68,7 @@ def AddStudent():
         return "Please select a file"
 
     try:
-        cursor.execute(insert_sql,(db, student_id, first_name, last_name, dob, gender, email_id, phone_no, address, department, skill))
+        cursor.execute(insert_sql,(student_id, first_name, last_name, dob, gender, email_id, phone_no, address, department, skill))
         db_conn.commit()
         student_name = "" + first_name + " "+ last_name
         # Uplaod image file in S3 #
