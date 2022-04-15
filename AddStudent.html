@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Student Information</title>
+        <link rel="stylesheet" href="AddStudent.css" type="text/css">
+    </head>
+    <body>
+        <div class="addstudent">
+            <h2>Student Database</h2><br>
+                <form action="file:///Users/samritha/Visual%20Code/Student%20Database/GetStudent.html
+                " autocomplete="on" method = "POST" enctype="multipart/form-data">
+                    <button type="submit" id="getinfo">Get Student Information</button><br><br>
+
+                    <label>Student ID:</label><br>
+                    <input type="text" name="student_id" id="stuid" placeholder="Enter your Student ID"><br><br>
+                        
+                    <label>First Name:</label><br>
+                    <input type="text" name="first_name" id="fname" placeholder="Enter your First Name"><br><br>
+                        
+                    <label>Last Name:</label><br>
+                    <input type="text" name="last_name" id="lname" placeholder="Enter your Last Name"><br><br>
+                        
+                    <label>Date of Birth:</label><br>
+                    <input type="date" name="dob" id="dob"s><br><br>
+                        
+                    <label>Gender:</label><br>
+                    <input type="radio" id="ma"> <span id="gender">Male</span>
+                    <input type="radio" id="fe"> <span id="gender">Female</span> 
+                    <input type="radio" id="oth"> <span id="gender">Others</span><br><br>
+                        
+                    <label>E-mail:</label><br>
+                    <input type="email" name="email_id" id="email" placeholder="Enter your E-mail"><br><br>
+                        
+                    <label>Phone.No:</label><br>
+                    <input type="tel" name="phone_no" id="no" placeholder="Enter your Phone.No"><br><br>
+                        
+                    <label>Address:</label><br>
+                    <textarea rows="5" cols="35" placeholder="Enter your Address" id="add"></textarea><br><br>
+                        
+                    <label>Department:</label><br>
+                    <input type="text" name="department" id="dept" placeholder="Enter your Department"><br><br>
+                        
+                    <label>Skills:</label><br>
+                    <input type="text" name="skill" id="skill" placeholder="Enter your Skills"><br><br>
+
+                    <label>Image:</label><br>
+                    <input type="file" name="student_image_file" id="img_url" placeholder="Enter your Skills"><br><br>
+
+                    <button type="submit" id="updinfo" formaction="file:///Users/samritha/Visual%20Code/Student%20Database/AddStudentOutput.html">Update Database</button>
+                </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("/Users/samritha/Downloads/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+input[type=text][id=stuid] {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id=fname] {
+    width: 40%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id=lname] {
+    width: 40%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date][id=ma] {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email][id=email] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel][id=no] {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea[id=add] {
+    width: 50%;
+    padding: 4px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id=dept] {
+    width: 40%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id=skill] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addstudent{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}   
+
+#getinfo{
+    width: 200px;
+    outline: 1px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+}
+
+#updinfo{
+    width: 150px;
+    outline: 1px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("/Users/samritha/Downloads/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.addstudentoutput{
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}   
+
+#goback{
+    width: 100px;
+    outline: 1px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+}
