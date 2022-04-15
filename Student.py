@@ -6,19 +6,6 @@ from config import *
 
 app = Flask(__name__)
 
-def custombucket():
-	return custombucket
-def customregion():
-    return customregion
-def customhost():
-    return customhost
-def customuser():
-    return customuser
-def custompass():
-    return custompass
-def customdb():
-    return customdb
-
 # DBHOST = os.environ.get("DBHOST")
 # DBPORT = os.environ.get("DBPORT")
 # DBPORT = int(DBPORT)
