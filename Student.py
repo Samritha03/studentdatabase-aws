@@ -2,6 +2,9 @@ from flask import Flask,render_template,request
 from pymysql import connections
 import os
 import boto3
+import sys
+sys.path.append('../../')
+import config
 from config import *
 
 app = Flask(__name__)
