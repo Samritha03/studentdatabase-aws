@@ -4,8 +4,7 @@ import os
 import boto3
 import sys
 sys.path.append('../../')
-import config
-from config import *
+from config import config *
 
 app = Flask(__name__)
 
